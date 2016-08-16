@@ -4,10 +4,8 @@ description: Binding handler for Knockout.Validation to add required indicator f
 authors:
   - Tsvetomir Nikolov
 resources:
-  - /css/normalize.css
   - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
   - http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.min.js
-normalize_css: yes
 lang_css: CSS
 ...
 
