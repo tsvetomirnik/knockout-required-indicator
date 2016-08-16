@@ -12,7 +12,7 @@ ko.bindingHandlers.requiredIndicator.defaults.indicatorClass = 'required-indicat
 
 ## Example
 
-[jsfiddle](http://jsfiddle.net/tsvetomirnik/eqnptfuh/)
+[Demo](http://jsfiddle.net/gh/get/library/pure/tsvetomirnik/knockout-required-indicator/tree/master/Demo/)
 
 ### View Model
 
