@@ -1,4 +1,3 @@
-/*
 ---
 name: Required Indicator for Knockout.Validation
 description: Binding handler for Knockout.Validation to add required indicator for observables with requred validation rule.
@@ -13,5 +12,4 @@ resources:
 normalize_css: yes
 lang_css: CSS
 ...
-*/
 
