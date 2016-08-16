@@ -1,10 +1,8 @@
 .required-indicator:after {
   content: '\002a';
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
   color: #d9534f;
-  font-size: 10px;
+  font-size: 0.6em;
   vertical-align: top;
-  position: relative;
   margin-left: 0.3em;
 }

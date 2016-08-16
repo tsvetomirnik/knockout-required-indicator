@@ -44,3 +44,16 @@ this.name = ko.observable().extend({
   </label>
 </div>
 ```
+
+### CSS
+
+```css
+.required-indicator:after {
+  content: '\002a';
+  font-family: 'Glyphicons Halflings';
+  color: #d9534f;
+  font-size: 0.6em;
+  vertical-align: top;
+  margin-left: 0.3em;
+}
+```
