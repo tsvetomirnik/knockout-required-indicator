@@ -1,0 +1,56 @@
+<div class="container">
+
+  <header>
+    <h1>
+    Required Indicator<br/>
+    <small>for
+      <a href="https://github.com/Knockout-Contrib/Knockout-Validation" target="_blank">Knockout.Validation</a>
+    </small>
+    </h1>
+  </header>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">Example Form</div>
+    <div class="panel-body">
+      <form class="form-horizontal">
+
+        <!-- Name Field -->
+        <div class="form-group" data-bind="validationElement: name">
+          <label class="col-xs-4 control-label" data-bind="requiredIndicator: name">Name</label>
+          <div class="col-xs-8">
+            <input type="text" data-bind="value: name" class="form-control" />
+          </div>
+        </div>
+ 
+
+        <!-- Address Field -->
+        <div class="form-group" data-bind="validationElement: address">
+          <label class="col-xs-4 control-label" data-bind="requiredIndicator: address">Address</label>
+          <div class="col-xs-8">
+            <input type="text" data-bind="value: address" class="form-control" />
+          </div>
+        </div>
+
+        <!-- Make Name Required Checkbox -->
+        <div class="form-group">
+          <div class="col-xs-offset-4 col-xs-8">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" data-bind="checked: isNameRequired" /> Make Name Required
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Save Button -->
+        <div class="form-group">
+          <div class="col-xs-offset-4 col-xs-8">
+            <button type="button" data-bind="enable: isValid(), click: save" class="btn btn-success">Save</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</div>
