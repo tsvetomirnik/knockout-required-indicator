@@ -8,5 +8,6 @@ resources:
   - http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.min.js
 normalize_css: no
 lang_css: CSS
+wrap: b
 ...
 
