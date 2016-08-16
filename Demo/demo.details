@@ -6,6 +6,7 @@ authors:
 resources:
   - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
   - http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.min.js
+normalize_css: no
 lang_css: CSS
 ...
 
