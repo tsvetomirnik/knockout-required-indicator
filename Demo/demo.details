@@ -6,9 +6,7 @@ authors:
 resources:
   - /css/normalize.css
   - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
-  - https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/knockout-validation/2.0.3/knockout.validation.js
-  - https://rawgit.com/tsvetomirnik/knockout-required-indicator/master/ko.bindingHandler.requiredIndicator.js
+  - http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.min.js
 normalize_css: yes
 lang_css: CSS
 ...
